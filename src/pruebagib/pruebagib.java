@@ -17,13 +17,18 @@ public class pruebagib {
 		resultado=10*5;
 		return resultado;
 	}
-	
+	public static int division() {
+		int resultado=0;
+		resultado=20/2;
+		return resultado;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(suma());
-		System.out.println(resta());
-		System.out.println(multiplicacion());
+		System.out.println("suma"+suma());
+		System.out.println("resta"+resta());
+		System.out.println("multiplicacion"+multiplicacion());
+		System.out.println("division"+division());
 	}
 
 }
